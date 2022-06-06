@@ -1,0 +1,74 @@
+.wrapper.shrink {
+  position: relative;
+  color: white !important;
+  width: 150px !important;
+  height: 100vh !important;
+  background: #003545 !important;
+}
+
+/* .wrapper.shrink {
+  width: calc(100% - 200px);
+} */
+
+.logo {
+  position: relative;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 10px;
+  text-shadow: 2px 2px 2px #000;
+  display: flex;
+  align-items: center;
+  color: white !important;
+}
+
+.svgbar {
+  position: absolute;
+  right: 5px;
+}
+
+.linkWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 50px;
+  font-family: AdihausDIN, sans-serif;
+}
+.linkList {
+  display: block;
+  list-style: none;
+  font-size: 1.3em;
+  line-height: 40px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.linkList.active .link,
+.linkList.active {
+  background: #fff;
+  color: #003545 !important;
+  font-weight: 600;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+/* .linkList:hover {
+  width: 100%;
+  background: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition: all 0.5s ease-in-out;
+} */
+
+/* .linkList:hover .link {
+  color: #003545;
+  font-weight: 600;
+} */

@@ -1,0 +1,59 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+}
+
+.navlink__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: #000;
+  padding: 5px 0px;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #002053;
+  font-weight: 600;
+}
+
+.navbar-colored {
+  background-color: #002053;
+  transition: background-color 1.5s;
+}
+
+.link-colored {
+  color: #e5e5e5 !important;
+}
+
+.link-colored:hover {
+  color: #ffcc !important;
+  font-weight: 400 !important;
+}
+
+.toggler {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: green;
+  cursor: pointer;
+}
+
+.active {
+  color: #ffcc !important;
+  font-weight: 400 !important;
+}
+
+.nav-open {
+  background-color: #000 !important;
+}

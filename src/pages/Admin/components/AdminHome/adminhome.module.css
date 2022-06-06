@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+.widget {
+  /* position: fixed;
+  top: 0; */
+  flex: 1;
+  background: #fff;
+}
+
+.content {
+  background: #fff !important;
+  /* margin-top: 330px; */
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chart {
+  margin: 20px;
+}
